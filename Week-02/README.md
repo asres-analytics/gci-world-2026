@@ -176,6 +176,6 @@ These required experimentation and visualization to fully grasp how NumPy operat
 
 ## 📚 References
 
-- GeeksforGeeks. <a hrf="https://www.geeksforgeeks.org/numpy/numpy-ndarray/">NumPy ndarray (n‑dimensional array).<a/> 
+- GeeksforGeeks. [NumPy ndarray (n-dimensional array)](https://www.geeksforgeeks.org/numpy/numpy-ndarray/)
 
 
