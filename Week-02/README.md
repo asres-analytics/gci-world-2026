@@ -6,7 +6,7 @@ Session: **Lecture 2 (April Session)**
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The objective of Week 02 was to transition from **basic Python programming** to **efficient, data-centric computing** using **NumPy**.
 
@@ -14,9 +14,9 @@ Instead of working with simple variables and loops, I focused on learning how nu
 
 ---
 
-## 📘 What I Learned
+## What I Learned
 
-### 🔹 Introduction to NumPy
+### Introduction to NumPy
 
 NumPy (Numerical Python) is a core Python library designed for **fast numerical and scientific computing**. It provides efficient data structures and operations that replace slow, loop-based Python logic.
 
@@ -29,7 +29,7 @@ The key motivation for NumPy is **performance**. Unlike Python lists, NumPy arra
 
 ---
 
-### 🔹 NumPy Arrays (`ndarray`)
+###  NumPy Arrays (`ndarray`)
 
 The central data structure in NumPy is the **ndarray**.
 
@@ -46,7 +46,7 @@ This required shifting from list-based thinking to **array-based thinking**.
 
 ---
 
-### 🔹 Vectorization & Universal Functions
+###  Vectorization & Universal Functions
 
 One of the most important concepts this week was **vectorization**.
 
@@ -70,7 +70,7 @@ for i in range(len(a)):
   a = a * 2
 ```
 ---
-## 🔹 Broadcasting
+##  Broadcasting
 **Broadcasting** allows NumPy to automatically align array shapes during operations without copying data.
 I learned:
 
@@ -80,15 +80,15 @@ I learned:
 - This explained how NumPy performs flexible operations while remaining memory‑efficient.
 
 ---
-## 🔍 Indexing and Data Selection
-### 🔹 Indexing & Slicing
+##  Indexing and Data Selection
+### Indexing & Slicing
 I practiced:
 
 - Zero‑based and negative indexing
 - Slicing using `start` : `end` : `step`
 - Periodic extraction (e.g., weekly sampling from time‑series data)
 Important insight: slicing operations are `views`, not copies.
-### 🔹 Boolean & Advanced Indexing
+### Boolean & Advanced Indexing
 Boolean indexing was a key tool for real‑world data cleaning:
 
 - Filtering values using conditions
@@ -99,8 +99,8 @@ Advanced indexing enabled extraction of non‑consecutive elements and custom su
 
 ---
 
-## 📐 Working with 2D Arrays
-### 🔹 Two‑Dimensional Data
+##  Working with 2D Arrays
+###  Two‑Dimensional Data
 2D NumPy arrays were used to represent tabular datasets where:
 
 - Rows correspond to observations
@@ -108,7 +108,7 @@ Advanced indexing enabled extraction of non‑consecutive elements and custom su
 
 All mathematical operations apply `element‑wise` unless matrix multiplication is explicitly used.
 
-### 🔹 Axis & Aggregation
+###  Axis & Aggregation
 I learned that:
 
 - `axis=0` performs column‑wise operations
@@ -121,13 +121,13 @@ I learned that:
 - **sum**, and
 - **std** were used to summarize datasets correctly.
 
-## 🔹 Reshaping
+##  Reshaping
 
 Using reshape() and -1 helped me understand how NumPy manages dimensions without changing underlying data.
 ---
 
 
-## 📊 Dataset & Hands‑On Practice
+##  Dataset & Hands‑On Practice
 I worked with the **NOAA Global Historical Climatology Network (GHCN)** sample dataset, provided as the file:
 
 dataset/`GHCND_sample_csv.csv`
@@ -146,14 +146,14 @@ Loading numeric columns with np.loadtxt()
 - Handling missing precipitation values (encoded as large constants such as 9999)
 - Statistical aggregation across time periods using axis‑based operations
 
-The full hands‑on analysis using this dataset is provided in the following notebook:
+The full hands-on analysis using this dataset is available here:
 
-- notebooks/`numpy_weather_analysis.ipynb`
+- [NumPy Weather Analysis Notebook](notebooks/numpy_week02_notebook.ipynb)
 
 ---
 
 
-## 🛠️ What I Practiced
+##  What I Practiced
 
 - Vectorized arithmetic and transformations
 - Indexing, slicing, and boolean masking
@@ -164,7 +164,7 @@ The full hands‑on analysis using this dataset is provided in the following not
 --- 
 
 
-## ⚠️ Challenges Faced
+##  Challenges Faced
 
 - Understanding broadcasting rules and shape compatibility
 - Correct use of the `axis` parameter
@@ -174,7 +174,7 @@ These required experimentation and visualization to fully grasp how NumPy operat
 
 
 
-## 📚 References
+##  References
 
 - GeeksforGeeks. [NumPy ndarray (n-dimensional array)](https://www.geeksforgeeks.org/numpy/numpy-ndarray/)
 
